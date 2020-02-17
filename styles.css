@@ -1,0 +1,32 @@
+table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  background-color: #eeeaf1;
+  font-family:Verdana;
+  font-weight: 300;
+}
+
+table td:first-child {
+  font-weight: 700;
+}
+
+td, th {
+  border-right: 1px solid #dddddd;
+  font-size: 80%;
+  text-align: left;
+  padding: 11px;
+}
+
+table td:last-child {
+  border-right: 0;
+}
+
+tr:nth-child(even){
+  background-color: #f5f4f4;
+}
